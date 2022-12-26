@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator2</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="calcula.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="inputs">
+           <h2 id="show"></h2>
+        </div>
+        <div class="operands">
+            <div class="operators">
+                <h1  onclick="passing2('+')" >+</h1>
+                <h1 onclick="passing2('-')">-</h1>
+                <h1 onclick="passing2('*')">*</h1>
+                <h1 onclick="passing2('/')">/</h1>
+            </div>
+            <div class="operators">
+                <h1 onclick="passing('0')">0</h1>
+                <h1 onclick="passing('1')">1</h1>
+                <h1 onclick="passing('2')">2</h1>
+                <h1 onclick="passing('3')">3</h1>
+            </div>
+            <div class="operators">
+                <h1 onclick="passing('4')">4</h1>
+                <h1 onclick="passing('5')">5</h1>
+                <h1 onclick="passing('6')">6</h1>
+                <h1 onclick="passing('7')">7</h1>
+            </div>
+            <div class="operators">
+                <h1 onclick="passing('8')">8</h1>
+                <h1 onclick="passing('9')">9</h1>
+                <h1 onclick="result()">=</h1>
+                <p onclick="GoBack()">Go back</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
